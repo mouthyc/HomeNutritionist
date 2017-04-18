@@ -67,7 +67,7 @@
             <EditText
                 android:id="@+id/editText2"
                 android:layout_width="259dp"
-                android:layout_height="match_parent"
+                android:layout_height="63dp"
                 android:layout_margin="5dp"
                 android:background="#ffffffff"
                 android:ems="10"
