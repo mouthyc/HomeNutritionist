@@ -6,20 +6,75 @@
     android:layout_height="match_parent"
     tools:context="com.example.home.is4032project.MainActivity">
 
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="215dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
-
-    </RelativeLayout>
-
     <LinearLayout
         android:layout_width="362dp"
         android:layout_height="332dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"></LinearLayout>
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            app:srcCompat="@drawable/loginlogo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/emailtextView"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Email"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="309dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:ems="10"
+                android:inputType="textEmailAddress|numberPassword"
+                android:padding="10dp"
+                android:text="Email Address"
+                android:textColor="#ff6c6c6c" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passwordtextView"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Password"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="#ffffffff"
+                android:ems="10"
+                android:inputType="numberPassword"
+                android:padding="10dp"
+                android:text="Password"
+                android:textColor="#ff6c6c6c"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="360dp"
