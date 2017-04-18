@@ -33,7 +33,7 @@
             android:text="Add a profile picture"
             android:id="@+id/button15"
             android:layout_marginTop="20dp"
-            android:background="#a658daff"
+            android:background="#27AE60"
             android:layout_marginLeft="22dp" />
     </LinearLayout>
 
@@ -154,10 +154,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="6dp"
             android:layout_marginRight="6dp"
-            android:background="#ff6040d9"
-            android:text="Sign Up"
-            android:textColor="#ffffffff"
-            android:textStyle="bold" />
+            android:text="Sign Up" />
 
         <Button
             android:id="@+id/btnCancel"
@@ -166,10 +163,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="6dp"
             android:layout_marginRight="6dp"
-            android:background="#ff1bff38"
-            android:text="Cancel"
-            android:textColor="#ffffffff"
-            android:textStyle="bold" />
+            android:text="Cancel" />
 
 
     </LinearLayout>
